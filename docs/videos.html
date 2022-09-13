@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Azar Rock</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="img/AZAR_ISOLOGO_SFB.png" type="image/x-icon">
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="screen"> 
+<link rel="stylesheet" href="css/touchTouch.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/isotope.css" type="text/css" media="screen">      
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+
+<script type="text/javascript" src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+
+<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+
+<script type="text/javascript" src="js/touchTouch.jquery.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+
+<script>
+$(document).ready(function() {
+	// 
+
+
+
+
+}); //
+$(window).load(function() {
+	// isotop
+	var $container = $('#isotope-items'),
+		$optionSet = $('#isotope-options'), 
+	    $optionSets = $('#isotope-filters'), 
+	    $optionLinks = $optionSets.find('a'); 
+    $container.isotope({ 
+        filter: '*',
+        layoutMode: 'fitRows'
+    });  
+   	$optionLinks.click(function(){ 
+   		var $this = $(this); 
+    	// don't proceed if already selected 
+		if ( $this.hasClass('selected') ) { 
+			return false; 
+		}    		
+   		$optionSet.find('.selected').removeClass('selected'); 
+   		$this.addClass('selected');
+
+        var selector = $(this).attr('data-filter'); 
+        $container.isotope({ 
+            filter: selector            
+        }); 
+      	return false; 
+    });    	
+	$(window).on("resize", function( event ) {	
+		$container.isotope('reLayout');		
+	});	
+
+	// touchTouch
+	$('.thumb-isotope .thumbnail a').touchTouch();
+
+}); //
+</script>		
+<!--[if lt IE 8]>
+		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg"border="0"alt=""/></a></div>  
+	<![endif]-->    
+
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>      
+  <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+<![endif]-->
+</head>
+
+<body class="main">
+<div id="main">
+
+<img src="images/fire1.png" alt="" class="fire1">
+
+<img src="images/guitar1.png" alt="" class="guitar1">
+
+<img src="images/guitar2.png" alt="" class="guitar2">
+
+
+<div id="inner">
+
+<div class="top1_wrapper">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="top1">
+<div class="top1_inner clearfix">
+	
+	<header><div class="logo_wrapper"><a href="index.html" class="logo"><img src="images/Azar_Rock_Logo_Blanco2.png" alt=""></a></div></header>
+
+	<div class="social_wrapper clearfix">
+		<ul class="social clearfix">
+			<li><a href="https://www.facebook.com/Azar.Rock.SJ/" target="blank"><img src="img/facebook-icono.png"></a></li>
+			<li><a href="https://www.instagram.com/azar.rock/" target="blank"><img src="img/instagram-icono.png"></a></li>
+			<li><a href="https://www.youtube.com/channel/UCf1YUsRA1QdSXya07toLCuA" target="blank"><img src="img/youtube-icono.png"></a></li>	    
+		</ul>
+	</div>
+
+</div>	
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+
+<div class="top2_wrapper">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="top2">
+<div class="top2_inner clearfix">
+	
+<div class="menu_wrapper">
+<div class="navbar navbar_">
+	<div class="navbar-inner navbar-inner_">
+		<a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		<div class="nav-collapse nav-collapse_ collapse">
+			<ul class="nav sf-menu clearfix">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="acerca.html">Acerca de la banda</a></li>
+				<li><a href="historia-azar.html">Historia de Azar</a></li>
+				<li class="sub-menu sub-menu-1"><a href="nuestra-musica.html">Nuestra música</a>
+					<ul>
+						<li><a href="nuestra-musica.html">Canciones</a></li>
+						<!-- <li class="sub-menu sub-menu-2"><a href="index-3.html">Bocetos<em></em></a> -->
+							<!-- <ul>
+								<li><a href="index-3.html">lorem ipsum dolor</a></li>
+								<li><a href="index-3.html">sit amet</a></li>
+								<li><a href="index-3.html">adipiscing elit</a></li>
+								<li><a href="index-3.html">nunc suscipit</a></li>
+								<li><a href="404.html">404 page not found</a></li>
+							</ul> -->
+						</li>		
+						<li><a href="videos.html">Videos</a></li>						
+					</ul>						
+				</li>
+				<li><a href="galeria.html">Galería</a></li>
+				<!-- <li><a href="eventos.html">Eventos</a></li> -->
+				<li><a href="contacto.html">Contacto</a></li>																						
+    </ul>
+		</div>
+	</div>
+</div>	
+</div>
+
+<img src="images/menu_shadow1.png" alt="" class="menu_shadow1">
+
+</div>	
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+
+
+
+
+
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="box2">
+<div class="box2_top">
+	<h1><span>Nuestro material</span></h1>
+</div>	
+<div class="box2_inner">	
+
+<div id="isotope-options">
+    <ul id="isotope-filters" class="clearfix">
+        <li><a href="#" class="selected" data-filter="*">Mostrar todos</a></li> 
+        <li><a href="#" data-filter=".isotope-filter1">Editados</a></li> 
+        <li><a href="#" data-filter=".isotope-filter2">Ensayos</a></li> 
+        <li><a href="#" data-filter=".isotope-filter3">En vivo</a></li> 	             
+    </ul>            
+</div>
+
+<ul class="thumbnails thumbnails-iisotope" id="isotope-items">	
+
+    <li class="isotope-element isotope-filter1">
+		<div class="thumb-isotope">
+		  <div class="thumbnail clearfix">
+			<a href="images/blank.png">
+			  <figure>
+				<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+				  <div class="contenedor-responsivo">
+					<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/1hikZAetsnc" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+				  </div>
+				<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+				<!-- BLOG IMG -->
+			  <!-- ESTE CÓDIGO SE DEBE PONER EN EL CSS -->
+			  <!--.contenedor-responsivo {
+				  position: relative;
+				  overflow: hidden;
+				  padding-top: 56.25%;
+				}
+	  
+				.iframe-responsivo {
+				  position: absolute;
+				  top: 0;
+				  left: 0;
+				  width: 100%;
+				  height: 100%;
+				  border: 0;
+				} -->
+			  <!-- ESTE CÓDIGO SE DEBE PONER EN EL CSS -->
+			  <!-- <img src="images/gallery01.jpg" alt=""><em></em> -->
+			  </figure>
+	  
+			  <div class="caption" align="center">							
+				"Reina del Bestiario". Hecho en cuarentena, con la participación de muchos buenos amigos. 
+			  </div>
+			</a>				
+		  </div>
+		</div>
+		</li>
+
+		<li class="isotope-element isotope-filter2">
+			<div class="thumb-isotope">
+			  <div class="thumbnail clearfix">
+				<a href="images/blank.png">
+				  <figure>
+					<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+					  <div class="contenedor-responsivo">
+						<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/fr4yMlja9WU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					  </div>
+				  </figure>
+		  
+				  <div class="caption" align="center">	
+					"Zafiro". Ensayo en Enero de 2020.					
+				  </div>
+				</a>				
+			  </div>
+			</div>
+			</li>
+
+			<li class="isotope-element isotope-filter1">
+				<div class="thumb-isotope">
+				  <div class="thumbnail clearfix">
+					<a href="images/blank.png">
+					  <figure>
+						<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+						  <div class="contenedor-responsivo">
+							<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/NShow45QErI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						  </div>
+					  </figure>
+			  
+					  <div class="caption" align="center">
+						"La bacanal de los Andrios". Tema dedicado al cuadro del mismo nombre que pintó Tiziano.
+					  </div>
+					</a>				
+				  </div>
+				</div>
+				</li>
+
+				<li class="isotope-element isotope-filter3">
+					<div class="thumb-isotope">
+					  <div class="thumbnail clearfix">
+						<a href="images/blank.png">
+						  <figure>
+							<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+							  <div class="contenedor-responsivo">
+								<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/Rr4cDXJ3kH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+						  </figure>
+				  
+						  <div class="caption" align="center">
+							"Libertador". Vivo en Teatro Municipal el 24 de Mayo de 2019.
+						  </div>
+						</a>				
+					  </div>
+					</div>
+				</li>
+
+				<li class="isotope-element isotope-filter1">
+					<div class="thumb-isotope">
+					  <div class="thumbnail clearfix">
+						<a href="images/blank.png">
+						  <figure>
+							<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+							  <div class="contenedor-responsivo">
+								<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/EAYng15lCmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+						  </figure>
+				  
+						  <div class="caption" align="center">
+							"Talismán". Subtitulado.
+						  </div>
+						</a>				
+					  </div>
+					</div>
+				</li>
+
+				<li class="isotope-element isotope-filter2">
+					<div class="thumb-isotope">
+					  <div class="thumbnail clearfix">
+						<a href="images/blank.png">
+						  <figure>
+							<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+							  <div class="contenedor-responsivo">
+								<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/rqEqDP1Pmo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+						  </figure>
+				  
+						  <div class="caption" align="center">	
+							"Karma". Ensayo en Junio de 2021.					
+						  </div>
+						</a>				
+					  </div>
+					</div>
+				</li>
+
+    
+				<li class="isotope-element isotope-filter1">
+					<div class="thumb-isotope">
+					  <div class="thumbnail clearfix">
+						<a href="images/blank.png">
+						  <figure>
+							<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+							  <div class="contenedor-responsivo">
+								<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/vwXoYrB0z7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+							
+						  </figure>
+				  
+						  <div class="caption" align="center">
+							"No preguntes". Realizado con extractos de grandes momentos de la banda.						
+						  </div>
+						</a>				
+					  </div>
+					</div>
+				</li>
+				
+				<li class="isotope-element isotope-filter1">
+					<div class="thumb-isotope">
+					  <div class="thumbnail clearfix">
+						<a href="images/blank.png">
+						  <figure>
+							<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+							  <div class="contenedor-responsivo">
+								<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/z-nmaJK3yww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+						  </figure>
+				  
+						  <div class="caption" align="center">
+							"Karma". Tema compuesto por nuestro gran amigo Pablo Cowper.				
+						  </div>
+						</a>				
+					  </div>
+					</div>
+				</li>
+
+				<li class="isotope-element isotope-filter3">
+					<div class="thumb-isotope">
+					  <div class="thumbnail clearfix">
+						<a href="images/blank.png">
+						  <figure>
+							<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+							  <div class="contenedor-responsivo">
+								<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/6nMIOZVoJo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+						  </figure>
+				  
+						  <div class="caption" align="center">	
+							"Zafiro". Vivo en el Patio en Marzo de 2022.				
+						  </div>
+						</a>				
+					  </div>
+					</div>
+				</li>
+
+				<li class="isotope-element isotope-filter2">
+					<div class="thumb-isotope">
+					  <div class="thumbnail clearfix">
+						<a href="images/blank.png">
+						  <figure>
+							<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+							  <div class="contenedor-responsivo">
+								<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/JSN8oXTVgzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+						  </figure>
+				  
+						  <div class="caption" align="center">	
+							"Blues del Renacimiento". Ensayo en Junio de 2021.					
+						  </div>
+						</a>				
+					  </div>
+					</div>
+				</li>
+    
+				<li class="isotope-element isotope-filter2">
+					<div class="thumb-isotope">
+					  <div class="thumbnail clearfix">
+						<a href="images/blank.png">
+						  <figure>
+							<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+							  <div class="contenedor-responsivo">
+								<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/6Q_WyzrOIws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+						  </figure>
+				  
+						  <div class="caption" align="center">	
+							"Hoy es siempre". Ensayo en Noviembre de 2021.				
+						  </div>
+						</a>				
+					  </div>
+					</div>
+				</li>
+            
+				<li class="isotope-element isotope-filter3">
+					<div class="thumb-isotope">
+					  <div class="thumbnail clearfix">
+						<a href="images/blank.png">
+						  <figure>
+							<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+							  <div class="contenedor-responsivo">
+								<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/yvgGBf9inmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+						  </figure>
+				  
+						  <div class="caption" align="center">	
+							"Zafiro". Vivo en Rocker's el 25 de Enero de 2020.					
+						  </div>
+						</a>				
+					  </div>
+					</div>
+				</li>
+
+				<li class="isotope-element isotope-filter2">
+					<div class="thumb-isotope">
+					  <div class="thumbnail clearfix">
+						<a href="images/blank.png">
+						  <figure>
+							<!-- CÓDIGO PARA HACER EL VIDEO DE YOUTUBE RESPONSIVO -->
+							  <div class="contenedor-responsivo">
+								<iframe class="iframe-responsivo" src="https://www.youtube.com/embed/yX-oQGBSpFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+						  </figure>
+				  
+						  <div class="caption" align="center">	
+							"La bacanal de los Andrios". Ensayo Noviembre de 2021. 					
+						  </div>
+						</a>				
+					  </div>
+					</div>
+				</li>
+</ul>
+
+
+
+</div>
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+
+
+
+<div class="bot1_wrapper">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="bot1 clearfix">
+
+	<div class="logo2_wrapper"><a href="index.html" class="logo2"><img src="img/Azar_Logo_Blanco2.png" alt=""></a></div>	
+
+	<div class="menu_bot">
+		<ul id="menu_bot" class="clearfix">
+		  <li><a href="index.html">Inicio</a></li>
+		  <li><a href="acerca.html">Acerca de la banda</a></li>
+		  <li><a href="historia-azar.html">Historia de Azar</a></li>
+		  <li><a href="canciones.html">Canciones</a></li>
+		  <li><a href="galeria.html">Galería</a></li>
+		  <!-- <li><a href="eventos.html">Eventos</a></li>           -->
+		  <li><a href="contacto.html">Contacto</a></li>          
+		</ul>
+	</div>
+	
+		
+	<div class="bot2 clearfix">
+		
+	<footer><div class="copyright">Copyright   © 2022. <a href="index.html">AZAR ROCK</a> Todos los derechos reservados.&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#"></a></div></footer>
+	
+	<div class="search-form-wrapper clearfix">
+	<form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
+		<input type="text" name="s" value='Buscar' onBlur="if(this.value=='') this.value='Search'" onFocus="if(this.value =='Search' ) this.value=''">
+		<a href="#" onClick="document.getElementById('search-form').submit()"></a>
+	</form>			
+</div>
+
+</div>
+
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+
+</div>	
+</div>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
