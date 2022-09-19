@@ -22,39 +22,22 @@ $(document).ready(function(){
 	}, [
 
 		{
-			title:"Reina del Bestiario",
+			title:"Feliz - Después de Viejos",
 			// free:true,
-			mp3:"audio/Reina del Bestiario.mpeg"
+			mp3:"audio/Feliz.mpg"
 		},
 		{
-			title:"Talismán",
-			mp3:"audio/Talisman.mpg"
+			title:"Dulce Princesa - Limbo Tecno Rock ft. Lula Bertoldi",
+			mp3:"audio/Dulce Princesa-ft.Lula Bertoldi.mp3"
 		},
 		{
-			title:"Karma",
-			mp3:"audio/Karma.mp3"
+			title:"A Venado Tuerto - Angel Heavy Metal",
+			mp3:"audio/A-Venado-Tuerto.mpeg"
 		},
 		{
-			title:"La bacanal de los Andrios",
+			title:"Bussi - Santos Mundanos",
 			// free:true,
-			mp3:"audio/La bacanal de los Andrios.mpeg"
-		},
-		{
-			title:"No preguntes",
-			mp3:"audio/No-preguntes.mpeg"
-		},
-		{
-			title:"Quieta",
-			mp3:"audio/Quieta.mpeg"
-		},
-		{
-			title:"Papá",
-			// free:true,
-			mp3:"audio/Papa.mp4"
-		},
-		{
-			title:"Suero",
-			mp3:"audio/Suero.mpeg"
+			mp3:"audio/Bussi.mpeg"
 		},
 	
 	], {
