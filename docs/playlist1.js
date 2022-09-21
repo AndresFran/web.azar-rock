@@ -39,6 +39,16 @@ $(document).ready(function(){
 			// free:true,
 			mp3:"audio/Bussi.mpeg"
 		},
+		{
+			title:"La Sangre - El No Conocido",
+			// free:true,
+			mp3:"audio/la-sangre-ENC.mpeg"
+		},
+		{
+			title:"Del ser - Inura",
+			// free:true,
+			mp3:"audio/Del-ser-inura.mpeg"
+		},
 	
 	], {
 		
