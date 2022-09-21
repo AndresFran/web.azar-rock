@@ -63,7 +63,7 @@ $(document).ready(function(){
 			var click = document.ontouchstart === undefined ? 'click' : 'touchstart';
           	var kickoff = function () {
 				if (mobile) {
-					$("#jquery_jplayer_1").jPlayer("play");
+					$("#jquery_jplayer_1").jPlayer("pause");
             		document.documentElement.removeEventListener(click, kickoff, true);
 				}
          	};
