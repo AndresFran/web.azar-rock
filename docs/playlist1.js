@@ -49,6 +49,21 @@ $(document).ready(function(){
 			// free:true,
 			mp3:"audio/Del-ser-inura.mpeg"
 		},
+		{
+			title:"Recetas - La Mangarda",
+			// free:true,
+			mp3:"audio/recetas-la-mangarda.mpeg"
+		},
+		{
+			title:"Gas - Moire",
+			// free:true,
+			mp3:"audio/gas-moire.mpeg"
+		},
+		{
+			title:"Desaparecer - Mad Sigma",
+			// free:true,
+			mp3:"audio/desaparecer-mad-sigma.mpeg"
+		},
 	
 	], {
 		
