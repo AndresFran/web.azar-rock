@@ -40,21 +40,26 @@ $(document).ready(function(){
 			mp3:"audio/La bacanal de los Andrios.mpeg"
 		},
 		{
-			title:"No preguntes",
-			mp3:"audio/No-preguntes.mpeg"
+			title:"Papá",
+			// free:true,
+			mp3:"audio/papa.mpeg"
+		},
+		{
+			title:"Blues del Renacimiento",
+			// free:true,
+			mp3:"audio/renacimiento.mpeg"
 		},
 		{
 			title:"Quieta",
 			mp3:"audio/Quieta.mpeg"
 		},
 		{
-			title:"Papá",
-			// free:true,
-			mp3:"audio/Papa.mp4"
-		},
-		{
 			title:"Suero",
 			mp3:"audio/Suero.mpeg"
+		},
+		{
+			title:"No preguntes",
+			mp3:"audio/No-preguntes.mpeg"
 		},
 	
 	], {
