@@ -54,6 +54,10 @@ $(document).ready(function(){
 			mp3:"audio/Quieta.mpeg"
 		},
 		{
+			title:"Encerrada",
+			mp3:"audio/encerrada.mpeg"
+		},
+		{
 			title:"Suero",
 			mp3:"audio/Suero.mpeg"
 		},

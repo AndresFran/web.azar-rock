@@ -40,6 +40,11 @@ $(document).ready(function(){
 			mp3:"audio/Bussi.mpeg"
 		},
 		{
+			title:"Desaparecer - Mad Sigma",
+			// free:true,
+			mp3:"audio/desaparecer-mad-sigma.mpeg"
+		},
+		{
 			title:"La Sangre - El No Conocido",
 			// free:true,
 			mp3:"audio/la-sangre-ENC.mpeg"
@@ -60,14 +65,19 @@ $(document).ready(function(){
 			mp3:"audio/gas-moire.mpeg"
 		},
 		{
-			title:"Desaparecer - Mad Sigma",
-			// free:true,
-			mp3:"audio/desaparecer-mad-sigma.mpeg"
-		},
-		{
 			title:"Invisible - Efe4",
 			// free:true,
 			mp3:"audio/invisible-efe4.mpeg"
+		},
+		{
+			title:"Desaparecer - Post20",
+			// free:true,
+			mp3:"audio/desaparecer-post20.mp3"
+		},
+		{
+			title:"Volviendo al ruedo - Daño Vertical",
+			// free:true,
+			mp3:"audio/volviendo.ruedo-d.vertical.mpeg"
 		},
 	
 	], {
