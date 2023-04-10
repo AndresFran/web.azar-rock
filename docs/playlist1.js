@@ -79,6 +79,19 @@ $(document).ready(function(){
 			// free:true,
 			mp3:"audio/volviendo.ruedo-d.vertical.mpeg"
 		},
+		{
+			title:"Viendome volar - Handal",
+			// free:true,
+			mp3:"audio/viendome-volar-handal.wav"
+		},
+		{
+			title:"Nunca llueve eternamente - Espejo de Almas",
+			// free:true,
+			mp3:"audio/llueve-espejo.de.almas.mpg"
+		},
+		
+		
+		
 	
 	], {
 		
